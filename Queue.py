@@ -17,6 +17,12 @@ class Queue:
         else:
             return False
 
+    def peek(self):
+        if self.queue:
+            return self.queue[0]
+        else:
+            return False
+
     def isfullstatus(self):
         if len(self.queue) == self.size:
             return True

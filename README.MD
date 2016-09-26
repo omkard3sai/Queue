@@ -3,9 +3,9 @@
 A queue allows storing of data such that it can be accessed in FIFO order.
 
 ### Functions
-- push() − push an element on the stack.
-- pop() − return the top element from the stack.
-- peek() − return the top element of the stack without removing it.
-- isfullstatus() − check if the stack is full.
-- isemptystatus() - check if the stack is empty.
-- print() - print the current stack.
+- push() − push an element into back of queue.
+- pull() − return the first element from the queue.
+- peek() − return the first element of the queue without removing it.
+- isfullstatus() − check if the queue is full.
+- isemptystatus() - check if the queue is empty.
+- print() - print the current queue.
