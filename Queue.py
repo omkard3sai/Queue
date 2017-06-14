@@ -5,20 +5,20 @@ class Queue:
         self.size = size
 
     def push(self, item):
-        if len(self.queue) < self.size:
+        if not self.isfullstatus():
             self.queue.insert(0, item)
             return True
         else:
             return False
 
     def pull(self):
-        if self.queue:
+        if not self.isemptystatus():
             return self.queue.pop()
         else:
             return False
 
     def peek(self):
-        if self.queue:
+        if not self.isemptystatus():
             return self.queue[0]
         else:
             return False
