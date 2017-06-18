@@ -6,6 +6,5 @@ A queue allows storing of data such that it can be accessed in FIFO order.
 - push() − push an element into back of queue.
 - pull() − return the first element from the queue.
 - peek() − return the first element of the queue without removing it.
-- isfullstatus() − check if the queue is full.
-- isemptystatus() - check if the queue is empty.
+- empty_status() - check if the queue is empty.
 - print() - print the current queue.
